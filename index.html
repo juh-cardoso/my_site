@@ -1,165 +1,65 @@
+<!-- index.html -->
 <!DOCTYPE html>
-<html lang="pt br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catalogo Botanico</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vida Verde | Botânico João Silva</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="cabecalho">
-        <img class="cabecalho-alura" src="" alt="">
-        <img class="cabecalho-imagem" src="img/6073424_stock-vector-green-vector-logo-ornament-from-plants-for-the-garden.jpg" alt="Plantas">
-        <ul class="cabecalho-lista">
-            <li class="cabecalho-lista-item">Catalogo</li>
-            <li class="cabecalho-lista-item">Plantas</li>
-        </ul>
-    </header>
-    <section class="escola">
-        <div class="escola-div-conteudo">
-            <h2 class="escola-titulo">Catalogo</h2>
-            <p class="escola-texto-um">A botânica é uma área da biologia que estuda todas as características apresentadas pelos vegetais, fungos e algas, como morfologia, anatomia, entre outras subáreas. 
 
-    </section>
-    <section class="estudante">
-        <h2 class="estudante-titulo">Tipo- Ervas</h2>
-        <div class="estudante-todos">
-            <div class="estudante-div">
-                <img class="estudante-imagem" src="img/Alcaçuz (Glycyrrhiza glabra).jpeg" alt="Alcaçuz">
-                <h3 class="estudante-nome">:Alcaçuz
-                   </h3>
-                <a href="https://pt.wikipedia.org/wiki/Regaliz"><img class="estudante-icone" src="img/6424105.png" alt="sobre o Alcaçuz"></a>
-                <a href="https://www.youtube.com/watch?v=ZcAKHU4x9PA"><img class="estudante-icone" src="img/6422215.png" alt="icone linkedin"></a>   
-            </div>
-       
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="img/Alecrim (Rosmarinus officinalis).jpeg" alt="Alecrim">
-            <h3 class="estudante-nome">Alecrim</h3>
-            <a href="https://pt.wikipedia.org/wiki/Alecrim"><img class="estudante-icone" src="img/6424105.png" alt="sobre o Alecrim"></a>
-            <a href="https://www.youtube.com/watch?v=YYIscqgZkdE"><img class="estudante-icone" src="img/6422215.png" alt="icone linkedin"></a>
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="img/Camomila (Matricaria chamomilla).jpeg" alt="Camomila">
-            <h3 class="estudante-nome">Camomila</h3>
-            <a href="https://pt.wikipedia.org/wiki/Camomila"><img class="estudante-icone" src="img/6424105.png" alt="Camomila"></a>
-            <a href="https://www.youtube.com/watch?v=3WWx_07Pie0"><img class="estudante-icone" src="img/6422215.png" alt="icone linkedin"></a>   
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="img/Eucalipto (Eucalyptus globulus).jpeg" alt="Eucalipto">
-            <h3 class="estudante-nome">eucalipto</h3>
-            <a href="https://pt.wikipedia.org/wiki/Eucalyptus"><img class="estudante-icone" src="img/6424105.png" alt="icone github"></a>
-            <a href="https://www.youtube.com/watch?v=uSdRia6RyfI&t=46s"><img class="estudante-icone" src="img/6422215.png" alt="icone linkedin"></a>
-        </div>
-      
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="img/Funcho (Foeniculum vulgare).jpeg" alt="Funcho">
-            <h3 class="estudante-nome">funcho</h3>
-            <a href="https://pt.wikipedia.org/wiki/Funcho"><img class="estudante-icone" src="img/6424105.png" alt="icone github"></a>
-            <a href="https://www.youtube.com/watch?v=CZSRE3MhKGc&t=194s"><img class="estudante-icone" src="img/6422215.png" alt="icone linkedin"></a>
-          
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="img/Gengibre (Zingiber officinale).jpeg" alt="Gengibre">
-            <h3 class="estudante-nome">gen</h3>
-            <a href="https://pt.wikipedia.org/wiki/Gengibre"><img class="estudante-icone" src="img/6424105.png" alt="icone github"></a>
-            <a href="https://www.youtube.com/watch?v=E27J17qhJjw"><img class="estudante-icone" src="img/6422215.png" alt="icone linkedin"></a>
-          
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="img/Louro (Laurus nobilis).jpeg" alt="Louro">
-            <h3 class="estudante-nome">louro</h3>
-            <a href="https://pt.wikipedia.org/wiki/Loureiro"><img class="estudante-icone" src="img/6424105.png" alt="icone github"></a>
-            <a href="https://www.youtube.com/watch?v=rwQJ4w4K4SU"><img class="estudante-icone" src="img/6422215.png" alt="icone linkedin"></a>
+  <header>
+    <h1>Vida Verde</h1>
+    <p>Explorando a vida através das folhas</p>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Espécies</a></li>
+        <li><a href="#">Projetos</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        </div>
-       
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="img/Manjericão (Ocimum basilicum).jpeg" alt="Manjericão">
-            <h3 class="estudante-nome">Manjericão</h3>
-            <a href="https://pt.wikipedia.org/w/index.php?title=Manjeric%C3%A3o&redirect=no"><img class="estudante-icone" src="img/6424105.png" alt="icone github"></a>
-            <a href="https://www.youtube.com/watch?v=ZKGjE7mxEN4&t=44s"><img class="estudante-icone" src="img/6422215.png" alt="icone linkedin"></a>
-         
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="img/Orégano (Origanum vulgare).jpeg" alt="Orégano"
-            <h3 class="estudante-nome">Orégano</h3>
-            <a href="https://pt.wikipedia.org/wiki/Or%C3%A9gano"><img class="estudante-icone" src="img/6424105.png" alt="icone github"></a>
-            <a href="https://www.youtube.com/watch?v=9jqirqhs56k"><img class="estudante-icone" src="img/6422215.png" alt="icone linkedin"></a>
-          
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="img/Sálvia (Sálvia officinalis).jpeg" alt="Sálvia">
-            <h3 class="estudante-nome">Sálvia</h3>
-            <a href="https://pt.wikipedia.org/wiki/Salvia"><img class="estudante-icone" src="img/6424105.png" alt="icone github"></a>
-            <a href="https://www.youtube.com/watch?v=mna6LkhbNXI"><img class="estudante-icone" src="img/6422215.png" alt="icone linkedin"></a>
-          
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="img/Tomilho (Thymus vulgaris).jpeg" alt="Tomilho">
-            <h3 class="estudante-nome">tomilho</h3>
-            <a href="https://pt.wikipedia.org/wiki/Tomilho"><img class="estudante-icone" src="img/6424105.png" alt="icone github"></a>
-            <a href="https://www.youtube.com/watch?v=g44chLN-rac"><img class="estudante-icone" src="img/6422215.png" alt="icone linkedin"></a>
-           
-        </div>
-      
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="img/coentro_2.jpeg" alt="coentro">
-            <h3 class="estudante-nome">coentro</h3>
-            <a href="https://pt.wikipedia.org/wiki/Coentro"><img class="estudante-icone" src="img/6424105.png" alt="icone github"></a>
-            <a href="https://www.youtube.com/watch?v=QejhUEs_NXA&t=220s"><img class="estudante-icone" src="img/6422215.png" alt="icone linkedin"></a>
-        
-        </div>
-        <div class="estudante-div">     
-            <img class="estudante-imagem" src="img/Flor d alho.jpeg" alt="Alho-sem-Cheiro">
-            <h3 class="estudante-nome">Alho-sem-Cheiro</h3>
-            <a href="https://pt.wikipedia.org/wiki/Allium_neapolitanum"><img class="estudante-icone" src="img/6424105.png" alt="icone github"></a>
-            <a href="https://www.youtube.com/watch?v=xg8h2lQkF80"><img class="estudante-icone" src="img/6422215.png" alt="icone linkedin"></a>
-        </div>
-        
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="img/Datura stramonium – Wikipédia, a enciclopédia livre.jpeg" alt="trombeta">
-            <h3 class="estudante-nome">trombeta</h3>
-            <a href="https://pt.wikipedia.org/wiki/Datura_stramonium"><img class="estudante-icone" src="img/6424105.png" alt="icone github"></a>
-            <a href="https://www.youtube.com/watch?v=MlcCo2mJWhk"><img class="estudante-icone" src="img/6422215.png" alt="icone linkedin"></a>
-         
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="img/Salicària - Viquipèdia, l'enciclopèdia lliure.jpeg" alt="salgueirinha">
-            <h3 class="estudante-nome">salgueirinha</h3>
-            <a href="https://pt.wiktionary.org/wiki/salgueirinha"><img class="estudante-icone" src="img/6424105.png" alt="icone github"></a>
-            <a href="https://www.youtube.com/watch?v=Olib47AOwbI"><img class="estudante-icone" src="img/6422215.png" alt="icone linkedin"></a>
-          
-        </div>
-        
-        
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="img/Assa Fetida_ proprietà curative_ A cosa serve_ Come si usa_.jpeg" alt="Assa-fétida">
-            <h3 class="estudante-nome">Assa-fétida</h3>
+  <section class="hero">
+    <h1>Bem-vindo ao Jardim da Ciência</h1>
+    <p>Conheça a flora que sustenta o planeta</p>
+    <button onclick="location.href='#especies'">Explorar Espécies</button>
+  </section>
 
-            <a href="https://pt.wikipedia.org/wiki/Ferula_assafoetida"><img class="estudante-icone" src="img/6424105.png" alt="icone github"></a>
-            <a href="https://www.youtube.com/watch?v=i74HVsMCKXI"><img class="estudante-icone" src="img/6422215.png" alt="icone linkedin"></a>
-            
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="img/_.jpeg" alt="Arruda">
-            <h3 class="estudante-nome">Arruda</h3>
-            <a href="https://pt.wikipedia.org/wiki/Ruta_chalepensis"><img class="estudante-icone" src="img/6424105.png" alt="icone github"></a>
-            <a href="https://www.youtube.com/watch?v=_NRk0Wh-l9I"><img class="estudante-icone" src="img/6422215.png" alt="icone linkedin"></a>
-           
-        </div>  
-    
-      <span></span>
-        <span></span>
-    </section>
-    
-    <footer class="rodape">
-        <img class="rodape-imagem"src="img/youtube.png" alt="Catalogo">
-        <img class="rodape-imagem"src="img/discord.png" alt="Plantas">
+  <section class="section">
+    <h2>Sobre o Botânico</h2>
+    <p>João Silva é botânico com mais de 20 anos de experiência em estudos de flora nativa brasileira, atuando na conservação e educação ambiental.</p>
+  </section>
 
-    </footer>
+  <section class="section">
+    <h2>Espécies em Destaque</h2>
+    <div class="gallery">
+      <img src="planta1.jpg" alt="Espécie 1">
+      <img src="planta2.jpg" alt="Espécie 2">
+      <img src="planta3.jpg" alt="Espécie 3">
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Últimos Artigos</h2>
+    <ul>
+      <li>🌱 "O poder curativo das plantas da Mata Atlântica"</li>
+      <li>🍃 "Como montar um herbário caseiro"</li>
+      <li>🌼 "10 plantas brasileiras ameaçadas de extinção"</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Contato: botanico.joao@email.com | (41) 99999-9999</p>
+    <p>Siga no Instagram @vidaverde_botanica</p>
+    <p>&copy; 2025 Vida Verde. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="sketch.js"></script>
 </body>
 </html>
